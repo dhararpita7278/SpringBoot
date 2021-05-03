@@ -14,6 +14,7 @@ public class SpringGetRestApplication {
 
 	public static void main(String[] args) {
 		SpringApplication.run(SpringGetRestApplication.class, args);
+		System.out.println("WelCome");
 	}
 
 }

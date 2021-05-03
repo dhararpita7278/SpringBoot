@@ -31,6 +31,7 @@ public class EmployeeController {
 	public Employee addEmployee(@RequestBody Employee emp) {
 		return this.employeeService.addEmployee(emp);
 	}
+	
 	}
 	
 
