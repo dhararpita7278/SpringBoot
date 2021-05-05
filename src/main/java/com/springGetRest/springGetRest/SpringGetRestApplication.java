@@ -7,14 +7,14 @@ import org.springframework.context.annotation.ComponentScan;
 import org.springframework.data.jpa.repository.config.EnableJpaRepositories;
 
 @SpringBootApplication
-@ComponentScan({ "com.springGetRest.springGetRest"})
+@ComponentScan({ "com.springGetRest.springGetRest.Controller", "com.springGetRest.springGetRest.Service" })
 @EnableJpaRepositories("com.springGetRest.springGetRest.Repository")
 @EntityScan("com.springGetRest.springGetRest.entity")
 public class SpringGetRestApplication {
 
 	public static void main(String[] args) {
 		SpringApplication.run(SpringGetRestApplication.class, args);
-		System.out.println("WelCome");
+
 	}
 
 }
